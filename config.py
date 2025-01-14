@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6257927828"))
+OWNER_ID = int(getenv("OWNER_ID", "7148301053"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,16 +40,16 @@ GIT_TOKEN = getenv(
     "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"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/storm_techh")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/storm_core")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DARKDEMON_COMMUNITY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DARKDEMON_SUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2d3fd5ccdd3d43dda6f17864d8eb7281")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "48d311d8910a4531ae81205e1f754d27")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
